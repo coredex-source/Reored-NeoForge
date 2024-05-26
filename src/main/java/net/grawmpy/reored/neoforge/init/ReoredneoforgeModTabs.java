@@ -20,11 +20,14 @@ public class ReoredneoforgeModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.reoredneoforge.reored_blocks")).icon(() -> new ItemStack(ReoredneoforgeModBlocks.SILVER_ORE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ReoredneoforgeModBlocks.SILVER_ORE.get().asItem());
 				tabData.accept(ReoredneoforgeModBlocks.DEEPSLATE_SILVER_ORE.get().asItem());
+				tabData.accept(ReoredneoforgeModItems.RAW_SILVER.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_INGOT.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_NUGGET.get());
 			})
 
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> REORED_ARMORY = REGISTRY.register("reored_armory",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.reoredneoforge.reored_armory")).icon(() -> new ItemStack(ReoredneoforgeModItems.COPPER_SWORD.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.reoredneoforge.reored_armory")).icon(() -> new ItemStack(ReoredneoforgeModItems.SILVER_SWORD.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ReoredneoforgeModItems.OAK_ARMOR_HELMET.get());
 				tabData.accept(ReoredneoforgeModItems.OAK_ARMOR_CHESTPLATE.get());
 				tabData.accept(ReoredneoforgeModItems.OAK_ARMOR_LEGGINGS.get());
@@ -34,15 +37,20 @@ public class ReoredneoforgeModTabs {
 				tabData.accept(ReoredneoforgeModItems.COPPER_ARMOR_CHESTPLATE.get());
 				tabData.accept(ReoredneoforgeModItems.COPPER_ARMOR_LEGGINGS.get());
 				tabData.accept(ReoredneoforgeModItems.COPPER_ARMOR_BOOTS.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_SWORD.get());
 			})
 
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> REORED_TOOLS = REGISTRY.register("reored_tools",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.reoredneoforge.reored_tools")).icon(() -> new ItemStack(ReoredneoforgeModItems.COPPER_PICKAXE.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.reoredneoforge.reored_tools")).icon(() -> new ItemStack(ReoredneoforgeModItems.SIVER_PICKAXE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ReoredneoforgeModItems.COPPER_PICKAXE.get());
 				tabData.accept(ReoredneoforgeModItems.COPPER_AXE.get());
 				tabData.accept(ReoredneoforgeModItems.COPPER_SHOVEL.get());
 				tabData.accept(ReoredneoforgeModItems.COPPER_HOE.get());
+				tabData.accept(ReoredneoforgeModItems.SIVER_PICKAXE.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_AXE.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_SHOVEL.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_HOE.get());
 			})
 
 					.build());

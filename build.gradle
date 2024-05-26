@@ -1,13 +1,28 @@
 plugins {
+<<<<<<< HEAD
     id 'java-library'
     id 'eclipse'
     id 'net.neoforged.gradle.userdev' version '7.0.105'
+=======
+    id 'fabric-loom' version '1.4-SNAPSHOT'
+>>>>>>> branch 'master' of https://github.com/coredex-source/Reored
 }
 
+<<<<<<< HEAD
 version = '1.0'
 group = 'com.yourname.modid'
 base.archivesName = "modid"
+=======
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
 
+archivesBaseName = 'modid'
+version = '1.0.0'
+group = 'com.yourname.modid'
+actualmodid = 'reoredfabric'
+>>>>>>> branch 'master' of https://github.com/coredex-source/Reored
+
+<<<<<<< HEAD
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 def at_file = rootProject.file('src/main/resources/META-INF/accesstransformer.cfg')
@@ -18,18 +33,60 @@ runs {
         systemProperty 'forge.logging.markers', 'REGISTRIES'
         systemProperty 'forge.logging.console.level', 'debug'
         modSource project.sourceSets.main
+=======
+loom {
+    mixin {
+        defaultRefmapName = actualmodid + ".refmap.json"
+>>>>>>> branch 'master' of https://github.com/coredex-source/Reored
     }
+<<<<<<< HEAD
 
     client {}
     server {}
+=======
+    if (file("src/main/resources/reoredfabric.accesswidener").exists())
+        accessWidenerPath = file("src/main/resources/reoredfabric.accesswidener")
+>>>>>>> branch 'master' of https://github.com/coredex-source/Reored
 }
 
 dependencies {
+<<<<<<< HEAD
     implementation 'net.neoforged:neoforge:20.4.223'
+=======
+    minecraft "com.mojang:minecraft:1.20.1"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:0.14.21"
+
+    //Fabric api
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.83.1+1.20.1"
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+>>>>>>> branch 'master' of https://github.com/coredex-source/Reored
 }
 
 tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+    it.options.release = 17
+}
+
+<<<<<<< HEAD
+apply from: 'mcreator.gradle'
+=======
+java {
+    withSourcesJar()
+
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+jar {
+    from "LICENSE"
 }
 
 apply from: 'mcreator.gradle'
+>>>>>>> branch 'master' of https://github.com/coredex-source/Reored

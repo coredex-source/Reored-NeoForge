@@ -13,6 +13,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.grawmpy.reored.neoforge.item.SiverPickaxeItem;
+import net.grawmpy.reored.neoforge.item.SilverSwordItem;
+import net.grawmpy.reored.neoforge.item.SilverShovelItem;
+import net.grawmpy.reored.neoforge.item.SilverNuggetItem;
+import net.grawmpy.reored.neoforge.item.SilverIngotItem;
+import net.grawmpy.reored.neoforge.item.SilverHoeItem;
+import net.grawmpy.reored.neoforge.item.SilverAxeItem;
+import net.grawmpy.reored.neoforge.item.RawSilverItem;
 import net.grawmpy.reored.neoforge.item.OakArmorItem;
 import net.grawmpy.reored.neoforge.item.CopperSwordItem;
 import net.grawmpy.reored.neoforge.item.CopperShovelItem;
@@ -39,6 +47,14 @@ public class ReoredneoforgeModItems {
 	public static final DeferredHolder<Item, Item> COPPER_ARMOR_BOOTS = REGISTRY.register("copper_armor_boots", () -> new CopperArmorItem.Boots());
 	public static final DeferredHolder<Item, Item> SILVER_ORE = block(ReoredneoforgeModBlocks.SILVER_ORE);
 	public static final DeferredHolder<Item, Item> DEEPSLATE_SILVER_ORE = block(ReoredneoforgeModBlocks.DEEPSLATE_SILVER_ORE);
+	public static final DeferredHolder<Item, Item> SILVER_SWORD = REGISTRY.register("silver_sword", () -> new SilverSwordItem());
+	public static final DeferredHolder<Item, Item> RAW_SILVER = REGISTRY.register("raw_silver", () -> new RawSilverItem());
+	public static final DeferredHolder<Item, Item> SILVER_INGOT = REGISTRY.register("silver_ingot", () -> new SilverIngotItem());
+	public static final DeferredHolder<Item, Item> SILVER_NUGGET = REGISTRY.register("silver_nugget", () -> new SilverNuggetItem());
+	public static final DeferredHolder<Item, Item> SIVER_PICKAXE = REGISTRY.register("siver_pickaxe", () -> new SiverPickaxeItem());
+	public static final DeferredHolder<Item, Item> SILVER_AXE = REGISTRY.register("silver_axe", () -> new SilverAxeItem());
+	public static final DeferredHolder<Item, Item> SILVER_SHOVEL = REGISTRY.register("silver_shovel", () -> new SilverShovelItem());
+	public static final DeferredHolder<Item, Item> SILVER_HOE = REGISTRY.register("silver_hoe", () -> new SilverHoeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
