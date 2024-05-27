@@ -504,10 +504,10 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "siver_pickaxe",
+      "registry_name": "silver_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/reoredneoforge/models/item/siver_pickaxe.json",
+          "src/main/resources/assets/reoredneoforge/models/item/silver_pickaxe.json",
           "src/main/java/net/grawmpy/reored/neoforge/item/SiverPickaxeItem.java"
         ]
       },
@@ -629,8 +629,8 @@
   },
   "language_map": {
     "en_us": {
-      "item.reoredneoforge.siver_pickaxe": "Siver Pickaxe",
       "item.reored.copper_sword": "Copper Sword",
+      "item.reoredneoforge.silver_pickaxe": "Silver Pickaxe",
       "item.reoredforge.copper_armor_chestplate": "Copper Chestplate",
       "item.reoredneoforge.oak_armor_boots": "Wooden Boots",
       "item.reoredforge.silver_sword": "Silver Sword",

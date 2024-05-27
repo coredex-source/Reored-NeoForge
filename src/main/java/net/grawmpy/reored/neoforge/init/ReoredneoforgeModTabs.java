@@ -42,12 +42,12 @@ public class ReoredneoforgeModTabs {
 
 					.build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> REORED_TOOLS = REGISTRY.register("reored_tools",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.reoredneoforge.reored_tools")).icon(() -> new ItemStack(ReoredneoforgeModItems.SIVER_PICKAXE.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.reoredneoforge.reored_tools")).icon(() -> new ItemStack(ReoredneoforgeModItems.SILVER_PICKAXE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ReoredneoforgeModItems.COPPER_PICKAXE.get());
 				tabData.accept(ReoredneoforgeModItems.COPPER_AXE.get());
 				tabData.accept(ReoredneoforgeModItems.COPPER_SHOVEL.get());
 				tabData.accept(ReoredneoforgeModItems.COPPER_HOE.get());
-				tabData.accept(ReoredneoforgeModItems.SIVER_PICKAXE.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_PICKAXE.get());
 				tabData.accept(ReoredneoforgeModItems.SILVER_AXE.get());
 				tabData.accept(ReoredneoforgeModItems.SILVER_SHOVEL.get());
 				tabData.accept(ReoredneoforgeModItems.SILVER_HOE.get());
