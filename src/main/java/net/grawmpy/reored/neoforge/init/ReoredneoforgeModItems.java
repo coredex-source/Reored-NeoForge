@@ -20,6 +20,7 @@ import net.grawmpy.reored.neoforge.item.SilverNuggetItem;
 import net.grawmpy.reored.neoforge.item.SilverIngotItem;
 import net.grawmpy.reored.neoforge.item.SilverHoeItem;
 import net.grawmpy.reored.neoforge.item.SilverAxeItem;
+import net.grawmpy.reored.neoforge.item.SilverArmorItem;
 import net.grawmpy.reored.neoforge.item.RawSilverItem;
 import net.grawmpy.reored.neoforge.item.OakArmorItem;
 import net.grawmpy.reored.neoforge.item.CopperSwordItem;
@@ -55,6 +56,10 @@ public class ReoredneoforgeModItems {
 	public static final DeferredHolder<Item, Item> SILVER_AXE = REGISTRY.register("silver_axe", () -> new SilverAxeItem());
 	public static final DeferredHolder<Item, Item> SILVER_SHOVEL = REGISTRY.register("silver_shovel", () -> new SilverShovelItem());
 	public static final DeferredHolder<Item, Item> SILVER_HOE = REGISTRY.register("silver_hoe", () -> new SilverHoeItem());
+	public static final DeferredHolder<Item, Item> SILVER_ARMOR_HELMET = REGISTRY.register("silver_armor_helmet", () -> new SilverArmorItem.Helmet());
+	public static final DeferredHolder<Item, Item> SILVER_ARMOR_CHESTPLATE = REGISTRY.register("silver_armor_chestplate", () -> new SilverArmorItem.Chestplate());
+	public static final DeferredHolder<Item, Item> SILVER_ARMOR_LEGGINGS = REGISTRY.register("silver_armor_leggings", () -> new SilverArmorItem.Leggings());
+	public static final DeferredHolder<Item, Item> SILVER_ARMOR_BOOTS = REGISTRY.register("silver_armor_boots", () -> new SilverArmorItem.Boots());
 
 	// Start of user code block custom items
 	// End of user code block custom items

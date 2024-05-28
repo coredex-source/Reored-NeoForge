@@ -38,6 +38,10 @@ public class ReoredneoforgeModTabs {
 				tabData.accept(ReoredneoforgeModItems.COPPER_ARMOR_LEGGINGS.get());
 				tabData.accept(ReoredneoforgeModItems.COPPER_ARMOR_BOOTS.get());
 				tabData.accept(ReoredneoforgeModItems.SILVER_SWORD.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_ARMOR_HELMET.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_ARMOR_CHESTPLATE.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_ARMOR_LEGGINGS.get());
+				tabData.accept(ReoredneoforgeModItems.SILVER_ARMOR_BOOTS.get());
 			})
 
 					.build());
