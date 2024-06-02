@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "reoredneoforge:item/silver_pickaxe"
-  }
-}

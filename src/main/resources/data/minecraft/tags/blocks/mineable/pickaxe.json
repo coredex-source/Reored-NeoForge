@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "reoredneoforge:deep_iron_block",
+    "reoredneoforge:deepslate_deep_iron_ore",
+    "reoredneoforge:deep_iron_ore",
     "reoredneoforge:deepslate_silver_ore",
     "reoredneoforge:silver_ore"
   ]

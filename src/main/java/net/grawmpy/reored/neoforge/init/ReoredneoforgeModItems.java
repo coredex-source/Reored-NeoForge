@@ -22,7 +22,10 @@ import net.grawmpy.reored.neoforge.item.SilverHoeItem;
 import net.grawmpy.reored.neoforge.item.SilverAxeItem;
 import net.grawmpy.reored.neoforge.item.SilverArmorItem;
 import net.grawmpy.reored.neoforge.item.RawSilverItem;
+import net.grawmpy.reored.neoforge.item.RawDeepIronItem;
 import net.grawmpy.reored.neoforge.item.OakArmorItem;
+import net.grawmpy.reored.neoforge.item.DeepIronNuggetItem;
+import net.grawmpy.reored.neoforge.item.DeepIronIngotItem;
 import net.grawmpy.reored.neoforge.item.CopperSwordItem;
 import net.grawmpy.reored.neoforge.item.CopperShovelItem;
 import net.grawmpy.reored.neoforge.item.CopperPickaxeItem;
@@ -60,6 +63,12 @@ public class ReoredneoforgeModItems {
 	public static final DeferredHolder<Item, Item> SILVER_ARMOR_CHESTPLATE = REGISTRY.register("silver_armor_chestplate", () -> new SilverArmorItem.Chestplate());
 	public static final DeferredHolder<Item, Item> SILVER_ARMOR_LEGGINGS = REGISTRY.register("silver_armor_leggings", () -> new SilverArmorItem.Leggings());
 	public static final DeferredHolder<Item, Item> SILVER_ARMOR_BOOTS = REGISTRY.register("silver_armor_boots", () -> new SilverArmorItem.Boots());
+	public static final DeferredHolder<Item, Item> DEEP_IRON_ORE = block(ReoredneoforgeModBlocks.DEEP_IRON_ORE);
+	public static final DeferredHolder<Item, Item> DEEPSLATE_DEEP_IRON_ORE = block(ReoredneoforgeModBlocks.DEEPSLATE_DEEP_IRON_ORE);
+	public static final DeferredHolder<Item, Item> RAW_DEEP_IRON = REGISTRY.register("raw_deep_iron", () -> new RawDeepIronItem());
+	public static final DeferredHolder<Item, Item> DEEP_IRON_INGOT = REGISTRY.register("deep_iron_ingot", () -> new DeepIronIngotItem());
+	public static final DeferredHolder<Item, Item> DEEP_IRON_NUGGET = REGISTRY.register("deep_iron_nugget", () -> new DeepIronNuggetItem());
+	public static final DeferredHolder<Item, Item> DEEP_IRON_BLOCK = block(ReoredneoforgeModBlocks.DEEP_IRON_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items
