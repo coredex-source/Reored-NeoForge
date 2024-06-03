@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "reoredneoforge:deep_iron_block"
+    }
+  ],
+  "result": {
+    "item": "reoredneoforge:deep_iron_ingot",
+    "count": 9
+  }
+}
