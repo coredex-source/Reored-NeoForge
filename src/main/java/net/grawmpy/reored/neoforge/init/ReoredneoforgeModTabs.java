@@ -48,6 +48,7 @@ public class ReoredneoforgeModTabs {
 				tabData.accept(ReoredneoforgeModItems.SILVER_ARMOR_CHESTPLATE.get());
 				tabData.accept(ReoredneoforgeModItems.SILVER_ARMOR_LEGGINGS.get());
 				tabData.accept(ReoredneoforgeModItems.SILVER_ARMOR_BOOTS.get());
+				tabData.accept(ReoredneoforgeModItems.DEEP_IRON_SWORD.get());
 			})
 
 					.build());
@@ -61,6 +62,10 @@ public class ReoredneoforgeModTabs {
 				tabData.accept(ReoredneoforgeModItems.SILVER_AXE.get());
 				tabData.accept(ReoredneoforgeModItems.SILVER_SHOVEL.get());
 				tabData.accept(ReoredneoforgeModItems.SILVER_HOE.get());
+				tabData.accept(ReoredneoforgeModItems.DEEP_IRON_PICKAXE.get());
+				tabData.accept(ReoredneoforgeModItems.DEEP_IRON_AXE.get());
+				tabData.accept(ReoredneoforgeModItems.DEEP_IRON_SHOVEL.get());
+				tabData.accept(ReoredneoforgeModItems.DEEP_IRON_HOE.get());
 			})
 
 					.build());
